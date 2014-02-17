@@ -1,0 +1,199 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+	color: #EEE;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+.wrapper {
+	display: block;
+	max-width: 94%;
+	margin: 0 auto;
+}
+.cl:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+.center {
+	text-align: center;
+	margin: auto;
+}
+.left {
+	text-align: left;
+	margin: auto;
+}
+
+.centrar-vert {
+	vertical-align: middle;
+}
+.inl-list li {
+	display: inline-block;
+	margin-left: 12px;
+	padding-bottom: 10px;
+}
+	.inl-list li:first-child {
+		margin-left: 0;
+	}
+.interl {
+	padding-bottom: 1%;
+}
+/*FONTS*/
+.titulo {
+	font-family: Gotham;
+	font-size: 38px;
+	color: yellow;
+	padding-bottom: 10px;
+	text-shadow: rgba(0, 0, 0, .6) 5px 5px 20px;
+}
+.texto {
+	font-family: Verdana;
+	font-size: 18px;
+	color: white;
+	padding-bottom: 1%;
+	font-weight: normal;
+	text-shadow: rgba(255, 0, 0, .6) 5px 5px 20px;
+}
+
+.textos-botones {
+	font-family: Verdana;
+	font-size: 16px;
+	color: black;
+	vertical-align: middle;
+}
+.cursiva {
+	font-family: serif;
+	font-style: italic;
+}
+
+.font-menu {
+	font-family: Verdana;
+	font-size: 14px;
+	color: grey;
+	padding-bottom: 1%;
+}
+/* ENCABEZADO */
+.hdr {
+	display: block;
+	height: 90px;
+	max-width: 94%;
+	margin: 0 auto;
+}
+	.hdr-logo {
+		display: inline-block;
+		margin-right: 1%;
+		vertical-align: middle;
+		float: left;
+	}
+	.hdr-menu {
+		display: inline-block; 
+		margin-right: 1%;
+		vertical-align: middle;
+	}
+	.hdr-buscador {
+		display: inline-block;
+			vertical-align: middle;
+	}
+
+/* CARROUSEL */
+
+.carrusel {
+	display: block;
+	height: 350px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.carrusel-fondo {
+	padding: 100px;
+	background: url("../ironman1.png") no-repeat 0 0;
+	background-size: cover;
+}
+.carrusel-nav {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	padding-bottom: 10px;
+	}
+	.carrusel-prev {
+		left: 0;
+		bottom: 0;
+		top: 0;	
+		width: 60px;		
+		background: url('../img/left.png') 0 0 no-repeat;
+		vertical-align: middle;
+	}
+	.carrusel-next {
+		right: 0;
+		bottom: 0;
+		top: 0;
+		width: 60px;
+		background: url('../img/right.png') 0 0 no-repeat;
+		vertical-align: middle;
+	}
+	.carrusel-prev a, .carrusel-next a {
+		text-indent: -9000px;
+		display: block;	
+	}
+.carrusel-abajo{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	padding-bottom: 10px;
+}	
+/* BOTONES */
+.boton1 {
+	border-radius: 6px;
+	background: #1FC5E2;
+	border: 0px;
+	padding: 10px 20px;
+	height: 40px;
+	width: 180px;
+}
+.boton2 {
+	border-radius: 6px;
+	background: #EF8821;
+	border: 0px;
+	padding: 10px 20px;
+	height: 40px;
+	width: 180px;
+}
+.boton3 {
+	border-radius: 50%;
+	background: #1FC5E2;
+	border: 0px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+/* CONTENIDO */
+.main-news {
+	margin: 0 auto 20px auto; width:94%; 
+}
+	.snapshot {
+	 float:left; width: 70%; height: 18%; 
+	padding-bottom: 10px;
+	}
+	.top-news { float:left; width: 70%; height: 18%; 
+	padding-bottom: 10px;
+	}
+	.mn-noticia{ float:left; width: 35%; 
+	padding-bottom: 10px;
+	} 
+	.mn-aside3{ float:right; width: 30%; 
+	padding-bottom: 10px;
+	} 
+	.mn-aside4{ float:left; width: 15%; 
+	padding-bottom: 10px;
+	padding-left: 40px;
+	vertical-align: top;
+	} 
+
+/* SOCIAL */
